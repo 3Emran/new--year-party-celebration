@@ -1,0 +1,89 @@
+/*Common shared style*/
+body{
+    font-family: Inter;
+    font-family: Merriweather;
+}
+.text-primary{
+    color: #F00;
+}
+/*Header related style*/
+header{
+    background-image: url('../images/Banner\ Image.png');
+    height: 365px;
+    text-align: center;
+    margin: 50px 140px;
+    max-width: 1320px;
+    background-size: contain;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+/* Banner related style*/
+.banner{
+    padding: 93px 210px 0px 157px;
+    align-items: center;
+}
+.banner-greeting{
+    color: #efefefea;
+    /* font-size: 32px; */
+    /* font-weight: 400; */
+    margin-bottom: 0px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 40px;
+    /* font-weight: 900;*/
+    margin-top: 5px;
+}
+/*main section style*/
+main{
+    max-width: 1320px;
+    margin: 50px 140px;
+    height: 365px;
+    background-size: contain;
+}
+main section{
+    margin-top: 120px;
+}
+.section-container{
+    padding: 0px 119px;
+    text-align: center;
+}
+.section-container-discount{
+    color: #F00;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 88px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-container-greeting{
+    color: #F00;
+    font-size: 24px;
+    margin-top: 48px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.section-container-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    font-family: Inter;
+    margin-bottom: 0px;
+}
+
+.section-container-image{
+    margin-top: 48px;
+    width: 630px;
+}
+/*section two*/
+.section-two{
+    background-image: url('../images/Vectorrr.png');
+    height: 365px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-two-container{
+    display: flex;
+    padding: 68px 120px;
+}
