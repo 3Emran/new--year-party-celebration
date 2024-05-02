@@ -1,5 +1,5 @@
 /*Common shared style*/
-body{
+*{
     font-family: Inter;
     font-family: Merriweather;
 }
@@ -10,32 +10,34 @@ body{
     color: #F00;
 }
 /*Header related style*/
-header{
-    background-image: url('../images/Banner\ Image.png');
-    height: 365px;
-    text-align: center;
+.header{
+    
     margin: 50px 140px;
-    max-width: 1320px;
-    background-size: contain;
-    border-radius: 16px;
-    background-repeat: no-repeat;
+    max-width: 1058px;
+    height: 365px;
 }
-/* Banner related style*/
 .banner{
-    padding: 93px 210px 0px 157px;
-    align-items: center;
+    background-image: url('../images/Banner\ Image.png');
+    background-size: contain;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-content{
+    text-align: center;
+    padding: 83px 118px;
 }
 .banner-greeting{
-    color: #efefefea;
-    /* font-size: 32px; */
-    /* font-weight: 400; */
+    color: #eee7e7;
+    font-size: 32px;
+    font-weight: 400;
     margin-bottom: 0px;
 }
 .banner-title{
     color: #FFF;
-    font-size: 40px;
-    /* font-weight: 900;*/
-    margin-top: 5px;
+    font-size: 52px;
+    font-weight: 900;
+    margin-top: 0px;
 }
 /*main section style*/
 main{
@@ -80,11 +82,9 @@ main section{
 }
 /*section two*/
 .section-two{
-    background-image: url('../images/Vectorrr.png');
-    height: 365px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex ;
+    background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    display: flex;
 }
 .section-two-container{
     display: flex;
@@ -122,7 +122,6 @@ main section{
 }
 /*Section three style*/
 .secion-three{
-    background-color: rgba(255, 0, 0, 0);
     background-color: rgba(255, 0, 0, 0.1);
 }
 .section-adress{
