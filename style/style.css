@@ -227,3 +227,18 @@ main section{
     font-size: 20px;
     font-weight: 500;
 }
+/*section 6 related style*/
+/*.section-6-images{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}*/
+.row {
+    display: flex;
+    justify-content: center;
+  }
+.sec6-colmun-photo{
+    width: 258px;
+    height: 300px;
+    padding: 0px 10px 10px 0px;
+}
