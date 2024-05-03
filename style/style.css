@@ -5,6 +5,8 @@
 }
 .text-primary{
     color: #F00;
+    font-size: 24px;
+    font-weight: 900;
 }
 .button-primary{
     color: #F00;
@@ -126,7 +128,7 @@ main section{
 }
 .section-adress{
     color: rgba(7, 2, 17, 1);
-    padding: 55px 120px 0px 120px;
+    padding: 58px 120px 47px 106px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -134,6 +136,7 @@ main section{
 }
 .section-button{
    text-align: center;
+   padding: 0px 0px 46px 0px;
 }
 .button-primary{
     color: #FFF;
@@ -145,4 +148,82 @@ main section{
     border-radius: 10px;
     padding: 16px 32px;
     border: 0;
+}
+/*section four style*/
+
+.section-four-container{
+    display: flex;
+    gap: 30px;
+}
+.section-four-description{
+    margin-top: 24px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.sec4-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #070211;
+    font-size: 24px;
+    font-weight: 900;
+}
+.event-year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sec4-ellips{
+    border-radius: 416px;
+    border: 23px solid #F00;
+    margin: 5px auto;
+}
+/*section5 style*/
+.sec5-descriptioin{
+    text-align: center;
+}
+.sec5-photos{
+    background-image: url('../images/Rectangle\ 1.png'),url('../images/Rectangle\ 2.png');
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    height: 662px;
+}
+.sec5-group75-images{
+    width: 296px;
+    height: 426px;
+}
+.sec5-group44-image{
+    height: 257px;
+    width: 192px;
+}
+.sec5-greeting{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.sec5-title{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#text-holidy{
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sec5-message{
+    margin-top: 24px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 }
