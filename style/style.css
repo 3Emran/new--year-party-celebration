@@ -261,4 +261,47 @@ main section{
     font-weight: 400;
     margin-bottom: 48px;
 }
-
+/*section seven start*/
+.section-7{
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+}
+.sec7-container{
+    padding: 40px 89px;
+}
+.sebscribe-message{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.sec7-ending-message{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+#subscribe-form{
+    max-width: 876px;
+    height: 72px;
+}
+.submit-button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 209px;
+    height: 50px;
+    border: 0;
+    color: #FFF;
+    padding: 12px 59px;
+}
+#email{
+    width: 334px;
+    height: 50px;
+    border-radius: 72px;
+    background: #FFF;
+    border: 0;
+    padding-left: 26px;
+}
