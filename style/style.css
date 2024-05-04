@@ -1,5 +1,5 @@
 /*Common shared style*/
-*{
+body{
     font-family: Inter;
     font-family: Merriweather;
 }
@@ -27,7 +27,7 @@
 }
 .banner-content{
     text-align: center;
-    padding: 83px 118px;
+    padding: 83px 44px 0px 100px;
 }
 .banner-greeting{
     color: #eee7e7;
@@ -44,7 +44,6 @@
 /*main section style*/
 main{
     max-width: 1320px;
-    height: 365px;
 }
 main section{
     margin: 50px 140px;
@@ -77,7 +76,6 @@ main section{
     font-family: Inter;
     margin-bottom: 0px;
 }
-
 .section-container-image{
     margin-top: 48px;
     width: 630px;
@@ -121,6 +119,7 @@ main section{
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 30px;
 }
 /*Section three style*/
 .secion-three{
@@ -159,7 +158,7 @@ main section{
     margin-top: 24px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 0px;
 }
@@ -167,7 +166,7 @@ main section{
     margin-top: 0;
     margin-bottom: 0;
     color: #070211;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 900;
 }
 .event-year{
@@ -179,6 +178,8 @@ main section{
     margin-bottom: 0px;
 }
 .sec4-ellips{
+    width: 376px;
+    height: 258px;
     border-radius: 416px;
     border: 23px solid #F00;
     margin: 5px auto;
@@ -194,12 +195,10 @@ main section{
     height: 662px;
 }
 .sec5-group75-images{
-    width: 296px;
     height: 426px;
 }
 .sec5-group44-image{
     height: 257px;
-    width: 192px;
 }
 .sec5-greeting{
     color: #070211;
@@ -265,9 +264,10 @@ main section{
 .section-7{
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
 }
-.sec7-container{
-    padding: 40px 89px;
+.section-7-container{
+    padding: 40px;
 }
 .sebscribe-message{
     color: #070211;
@@ -286,7 +286,6 @@ main section{
 }
 #subscribe-form{
     max-width: 876px;
-    height: 72px;
 }
 .submit-button{
     border-radius: 0px 50px 50px 0px;
@@ -304,4 +303,45 @@ main section{
     background: #FFF;
     border: 0;
     padding-left: 26px;
+}
+/* footer related style*/
+footer{
+    border-radius: 16px;
+    background: #070211;
+}
+.footer-colmun{
+    color: #FFF;
+    padding: 70px 47px;
+
+}
+.footer-address{
+    display: flex;
+    padding-right: 86px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+    gap: 367px;
+}
+.visible-address{
+    margin-top: 0px;
+}
+.footer-warning-message{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-no{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-web-address{
+    margin-top: 0px;
+}
+.social-link{
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+hr{
+    border: 1px solid rgb(61 54 54 / 15%);
+    background: rgb(57 54 54 / 15%);
 }
